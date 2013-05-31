@@ -1,0 +1,5 @@
+enum State {
+   FIND_STARTING_POINT,
+   LOOK_FOR_NEIGHOUR,
+   DONE
+};
