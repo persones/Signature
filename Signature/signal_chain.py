@@ -6,7 +6,7 @@ Created on Fri May 31 01:19:29 2013
 """
 
 from PIL import Image, ImageFilter
-im = Image.open("lena.jpg")
+im = Image.open("../lena.jpg")
 im=im.convert('L') # convert image to monochrome - this works
 #im = im.filter(ImageFilter.Kernel((3,3), [0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0], scale=None, offset=0))
 
